@@ -85,7 +85,7 @@
                     <div><input type="text" id="surname" class="form_input" placeholder="Surname" required></div>
                 </div>
                 <div class="User_data">
-                    <div><input type="number" id="phone" class="form_input" placeholder="(+27)00 000 000" required></div><br><br>
+                    <div><input type="tel" id="phone" class="form_input" placeholder="(+27)00 000 000" required></div><br><br>
                     <div><input type="email" id="email" class="form_input" placeholder="Email" required></div>
                 </div>
             </section>
@@ -93,29 +93,38 @@
             <p style="font-size: medium;">Check the box next to the course or courses you plan to apply for.</p>
             <section>
                 <div class="Courses_group" style="margin: 20px;">
-                    <input type="radio" id="six_months" name="course" value="six_months">
+                    <input type="checkbox" id="six_months" name="course" value="six_months">
                     <label for="six_months">First Aid</label><br>
-                    <input type="radio" id="six_months" name="course" value="six_months">
+                    <input type="checkbox" id="six_months" name="course" value="six_months">
                     <label for="six_months">Sewing</label><br>
-                    <input type="radio" id="six_months" name="course" value="six_months">
+                    <input type="checkbox" id="six_months" name="course" value="six_months">
                     <label for="six_months">Landscaping</label><br>
-                    <input type="radio" id="six_months" name="course" value="six_months">
+                    <input type="checkbox" id="six_months" name="course" value="six_months">
                     <label for="six_months">Life Skills</label><br>
-                    <input type="radio" id="six_weeks" name="course" value="six_months">
-                    <label for="six_months">Child Minding</label><br>
-                    <input type="radio" id="six_weeks" name="course" value="six_months">
-                    <label for="six_months">Cooking</label><br>
-                    <input type="radio" id="six_weeks" name="course" value="six_months">
-                    <label for="six_months">Garden Maintenance</label><br>
+                    <input type="checkbox" id="six_weeks" name="course" value="six_weeks">
+                    <label for="six_weeks">Child Minding</label><br>
+                    <input type="checkbox" id="six_weeks" name="course" value="six_weeks">
+                    <label for="six_weeks">Cooking</label><br>
+                    <input type="checkbox" id="six_weeks" name="course" value="six_weeks">
+                    <label for="six_weeks">Garden Maintenance</label><br>
                 </div>
             </section>
         </div>
         <section>
             <h2>Total Fees</h2>
+            <br>
+                <output id="result">R0.00</output>
+            <br>
+            <br>
             
-            <div id="btn"><button class="button">Apply</button></div>
+            <div id="btn">
+                <button class="button"
+                onclick="myFunction().innerHTML"
+                >Apply</button>
+            </div>
         </section>
     </main>
+
 </body>
 <footer>
        <div class="row">
