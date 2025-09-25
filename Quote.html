@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Quote</title>
     <link rel="stylesheet" href="CSS/Site_style.css">
+    <link rel="script" href="JS/Script.js">
 </head>
 <header id="tab">
         <div class="tab_menu">
@@ -93,19 +94,19 @@
             <p style="font-size: medium;">Check the box next to the course or courses you plan to apply for.</p>
             <section>
                 <div class="Courses_group" style="margin: 20px;">
-                    <input type="checkbox" id="six_months" name="course" value="six_months">
+                    <input type="checkbox" id="six_months" name="course" value="1500">
                     <label for="six_months">First Aid</label><br>
-                    <input type="checkbox" id="six_months" name="course" value="six_months">
+                    <input type="checkbox" id="six_months" name="course" value="1500">
                     <label for="six_months">Sewing</label><br>
-                    <input type="checkbox" id="six_months" name="course" value="six_months">
+                    <input type="checkbox" id="six_months" name="course" value="1500">
                     <label for="six_months">Landscaping</label><br>
-                    <input type="checkbox" id="six_months" name="course" value="six_months">
+                    <input type="checkbox" id="six_months" name="course" value="1500">
                     <label for="six_months">Life Skills</label><br>
-                    <input type="checkbox" id="six_weeks" name="course" value="six_weeks">
+                    <input type="checkbox" id="six_weeks" name="course" value="750">
                     <label for="six_weeks">Child Minding</label><br>
-                    <input type="checkbox" id="six_weeks" name="course" value="six_weeks">
+                    <input type="checkbox" id="six_weeks" name="course" value="750">
                     <label for="six_weeks">Cooking</label><br>
-                    <input type="checkbox" id="six_weeks" name="course" value="six_weeks">
+                    <input type="checkbox" id="six_weeks" name="course" value="750">
                     <label for="six_weeks">Garden Maintenance</label><br>
                 </div>
             </section>
@@ -113,13 +114,13 @@
         <section>
             <h2>Total Fees</h2>
             <br>
-                <output id="result">R0.00</output>
+                <output id="result"></output>
             <br>
             <br>
             
             <div id="btn">
                 <button class="button"
-                onclick="myFunction().innerHTML"
+                onclick="myFunction()"
                 >Apply</button>
             </div>
         </section>

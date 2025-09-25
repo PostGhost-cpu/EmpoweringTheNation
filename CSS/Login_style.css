@@ -24,7 +24,6 @@ a:hover {
 div.tab_menu {
     display: flex;
     justify-content: end;
-
 }
 
 ul {
@@ -48,7 +47,6 @@ ul li {
 ul li:hover > ul {
     color: #1b475d;
     opacity: 1;
-
 }
 
 ul li ul {
@@ -141,7 +139,7 @@ div.signip:hover {
     opacity: 0.8;
 }
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 900px) {
     header {
         font-family: 'Roboto', 'Open Sans', Arial, sans-serif;
         font-size: xx-small;
